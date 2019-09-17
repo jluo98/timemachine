@@ -12,6 +12,14 @@ var chosenVideo = "01";
 
 var video;
 
+function HEEEEY () {
+	for (var i = 0; i < 100; i++) {
+		alert('hey!')
+	}
+}
+
+HEEEEY()
+
 function chooseVideo() {
 	chosenVideo = random(videoNumber);
 	video = document.getElementById("vid" + chosenVideo);
@@ -60,7 +68,7 @@ function show() {
 			.catch(error => {
 			});
 		}
-		
+
 		showEx = false;
 		stopEx = true;
 	}
